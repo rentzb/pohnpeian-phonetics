@@ -14,7 +14,7 @@ options(mc.cores=parallel::detectCores()) # Run on multiple cores
 
 set.seed (3875)
 
-setwd("~/Documents/jipa-article-revised-stats/data")
+setwd("~/Documents/pohnpeian-phonetics/data")
 
 data <- read.csv("locus-eq/locus-new.csv")
 
@@ -58,17 +58,19 @@ t_locus_t <- locus.data %>% filter(consonant == "t̻")
 t_locus_d <- locus.data %>% filter(consonant == "t")
 
 
-ggplot(data=locus.data, aes(x=f2ss,y=f2i, color=consonant)) + geom_point() + geom_smooth(method="lm", fullrange=T) + theme_ipsum_rc() + scale_colour_ipsum()
+#ggplot(data=locus.data, aes(x=f2ss,y=f2i, color=consonant)) + geom_point() + geom_smooth(method="lm", fullrange=T) + theme_ipsum_rc() + scale_colour_ipsum()
 
-pw.data <- read.csv("locus-eq/p_pw_locus.csv")
-t.data <- read.csv("locus-eq/t_d_locus.csv")
-locus.data.old <- merge( pw.data, t.data,by.x=c("speaker", "word", "vowel","consonant","f2i","f2ss"), by.y=c("speaker","word", "vowel","consonant","f2i","f2ss"), all=T)
-ggplot(data=locus.data.old, aes(x=f2ss,y=f2i, color=consonant)) + geom_point() + geom_smooth(method="lm", fullrange=T) 
+#pw.data <- read.csv("locus-eq/p_pw_locus.csv")
+#t.data <- read.csv("locus-eq/t_d_locus.csv")
+#locus.data.old <- merge( pw.data, t.data,by.x=c("speaker", "word", "vowel","consonant","f2i","f2ss"), by.y=c("speaker","word", "vowel","consonant","f2i","f2ss"), all=T)
+#ggplot(data=locus.data.old, aes(x=f2ss,y=f2i, color=consonant)) + geom_point() + geom_smooth(method="lm", fullrange=T) 
 
 locus.data.counts.vowel <- locus.data %>% group_by(speaker, consonant) %>% count(vowel)
 locus.data.counts.word <- locus.data  %>% count(word)
 locus.data.counts.consonant <- locus.data  %>% count(consonant)
 locus.data.counts.consonant.speaker <- locus.data %>% group_by(speaker)  %>% count(consonant)
+locus.data.counts.speaker <- locus.data  %>% count(speaker)
+
 
 locus.lmer <- lmer(f2i ~ f2ss + consonant + (1|speaker)+(1|word), data=locus.data)
 summary(locus.lmer)
