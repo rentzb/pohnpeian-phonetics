@@ -12,5 +12,4 @@ The sections below (in progress) outline the analyses contained in this reposito
 ## Spectral analyses
 
 
-
-
+# File structure of the repository
