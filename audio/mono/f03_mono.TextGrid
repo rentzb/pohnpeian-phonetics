@@ -1,0 +1,306 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1623.2939682539682 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "vowel" 
+        xmin = 0 
+        xmax = 1623.2939682539682 
+        intervals: size = 73 
+        intervals [1]:
+            xmin = 0 
+            xmax = 146.2511880362842 
+            text = "     " 
+        intervals [2]:
+            xmin = 146.2511880362842 
+            xmax = 147.16704243132614 
+            text = "F03_ahdan-1" 
+        intervals [3]:
+            xmin = 147.16704243132614 
+            xmax = 151.58073621082207 
+            text = "" 
+        intervals [4]:
+            xmin = 151.58073621082207 
+            xmax = 152.21717740059697 
+            text = "F03_idi-2" 
+        intervals [5]:
+            xmin = 152.21717740059697 
+            xmax = 155.31659425161462 
+            text = "" 
+        intervals [6]:
+            xmin = 155.31659425161462 
+            xmax = 156.0254759020143 
+            text = "F03_ata-3" 
+        intervals [7]:
+            xmin = 156.0254759020143 
+            xmax = 163.19722867082848 
+            text = "" 
+        intervals [8]:
+            xmin = 163.19722867082848 
+            xmax = 164.3301996949311 
+            text = "F03_itik-1" 
+        intervals [9]:
+            xmin = 164.3301996949311 
+            xmax = 168.66912751539266 
+            text = "" 
+        intervals [10]:
+            xmin = 168.66912751539266 
+            xmax = 169.5021928125777 
+            text = "F03_apa-2" 
+        intervals [11]:
+            xmin = 169.5021928125777 
+            xmax = 189.3142338200753 
+            text = "" 
+        intervals [12]:
+            xmin = 189.3142338200753 
+            xmax = 190.18351934757274 
+            text = "F03_apwal-3" 
+        intervals [13]:
+            xmin = 190.18351934757274 
+            xmax = 201.14881619740922 
+            text = "" 
+        intervals [14]:
+            xmin = 201.14881619740922 
+            xmax = 202.03770008107205 
+            text = "F03_ipwidi-2" 
+        intervals [15]:
+            xmin = 202.03770008107205 
+            xmax = 250.29754946681555 
+            text = "" 
+        intervals [16]:
+            xmin = 250.29754946681555 
+            xmax = 251.01978128869962 
+            text = "F03_pahpa-2" 
+        intervals [17]:
+            xmin = 251.01978128869962 
+            xmax = 453.030918639318 
+            text = "" 
+        intervals [18]:
+            xmin = 453.030918639318 
+            xmax = 453.7118830786829 
+            text = "F03_koahpi-3" 
+        intervals [19]:
+            xmin = 453.7118830786829 
+            xmax = 646.2903905374673 
+            text = "" 
+        intervals [20]:
+            xmin = 646.2903905374673 
+            xmax = 647.0710030058326 
+            text = "F03_ata-1" 
+        intervals [21]:
+            xmin = 647.0710030058326 
+            xmax = 651.2451113436194 
+            text = "" 
+        intervals [22]:
+            xmin = 651.2451113436194 
+            xmax = 652.1883514095608 
+            text = "F03_ahdan-2" 
+        intervals [23]:
+            xmin = 652.1883514095608 
+            xmax = 655.0722808065772 
+            text = "" 
+        intervals [24]:
+            xmin = 655.0722808065772 
+            xmax = 655.7607376363161 
+            text = "F03_idi-3" 
+        intervals [25]:
+            xmin = 655.7607376363161 
+            xmax = 667.077996419841 
+            text = "" 
+        intervals [26]:
+            xmin = 667.077996419841 
+            xmax = 667.9351064971967 
+            text = "F03_itik-2" 
+        intervals [27]:
+            xmin = 667.9351064971967 
+            xmax = 670.2996800674061 
+            text = "" 
+        intervals [28]:
+            xmin = 670.2996800674061 
+            xmax = 671.015241496741 
+            text = "F03_apa-3" 
+        intervals [29]:
+            xmin = 671.015241496741 
+            xmax = 677.6307362649509 
+            text = "" 
+        intervals [30]:
+            xmin = 677.6307362649509 
+            xmax = 678.433032412993 
+            text = "F03_apwal-1" 
+        intervals [31]:
+            xmin = 678.433032412993 
+            xmax = 702.7192501314499 
+            text = "" 
+        intervals [32]:
+            xmin = 702.7192501314499 
+            xmax = 703.6841738770682 
+            text = "F03_ipwidi-3" 
+        intervals [33]:
+            xmin = 703.6841738770682 
+            xmax = 749.0952267676959 
+            text = "" 
+        intervals [34]:
+            xmin = 749.0952267676959 
+            xmax = 749.8595764763036 
+            text = "F03_pahpa-3" 
+        intervals [35]:
+            xmin = 749.8595764763036 
+            xmax = 945.7286197668052 
+            text = "" 
+        intervals [36]:
+            xmin = 945.7286197668052 
+            xmax = 946.4643034749477 
+            text = "F03_koahpi-1" 
+        intervals [37]:
+            xmin = 946.4643034749477 
+            xmax = 1147.0243350767437 
+            text = "" 
+        intervals [38]:
+            xmin = 1147.0243350767437 
+            xmax = 1147.7802070383784 
+            text = "F03_idi-1" 
+        intervals [39]:
+            xmin = 1147.7802070383784 
+            xmax = 1152.3154388081866 
+            text = "" 
+        intervals [40]:
+            xmin = 1152.3154388081866 
+            xmax = 1153.0713107698211 
+            text = "F03_ata-2" 
+        intervals [41]:
+            xmin = 1153.0713107698211 
+            xmax = 1156.1118483598555 
+            text = "" 
+        intervals [42]:
+            xmin = 1156.1118483598555 
+            xmax = 1156.941602543304 
+            text = "F03_ahdan-3" 
+        intervals [43]:
+            xmin = 1156.941602543304 
+            xmax = 1164.0059540844713 
+            text = "" 
+        intervals [44]:
+            xmin = 1164.0059540844713 
+            xmax = 1164.869807754911 
+            text = "F03_apa-1" 
+        intervals [45]:
+            xmin = 1164.869807754911 
+            xmax = 1173.1238272378582 
+            text = "" 
+        intervals [46]:
+            xmin = 1173.1238272378582 
+            xmax = 1173.9877723238053 
+            text = "F03_itik-3" 
+        intervals [47]:
+            xmin = 1173.9877723238053 
+            xmax = 1185.6933031011608 
+            text = "" 
+        intervals [48]:
+            xmin = 1185.6933031011608 
+            xmax = 1186.4946410454504 
+            text = "F03_apwal-2" 
+        intervals [49]:
+            xmin = 1186.4946410454504 
+            xmax = 1198.263261785602 
+            text = "" 
+        intervals [50]:
+            xmin = 1198.263261785602 
+            xmax = 1199.2862463953331 
+            text = "F03_ipwidi-1" 
+        intervals [51]:
+            xmin = 1199.2862463953331 
+            xmax = 1248.5317676728985 
+            text = "" 
+        intervals [52]:
+            xmin = 1248.5317676728985 
+            xmax = 1249.4183543346655 
+            text = "F03_pahpa-1" 
+        intervals [53]:
+            xmin = 1249.4183543346655 
+            xmax = 1485.8239221126985 
+            text = "" 
+        intervals [54]:
+            xmin = 1485.8239221126985 
+            xmax = 1486.5912400089026 
+            text = "F03_koahpi-2" 
+        intervals [55]:
+            xmin = 1486.5912400089026 
+            xmax = 1557.8747927979143 
+            text = "" 
+        intervals [56]:
+            xmin = 1557.8747927979143 
+            xmax = 1558.6489913852934 
+            text = "F03_ahpwa-1" 
+        intervals [57]:
+            xmin = 1558.6489913852934 
+            xmax = 1564.248322184246 
+            text = "" 
+        intervals [58]:
+            xmin = 1564.248322184246 
+            xmax = 1565.3370389477477 
+            text = "F03_ahpa-2" 
+        intervals [59]:
+            xmin = 1565.3370389477477 
+            xmax = 1569.788680825176 
+            text = "" 
+        intervals [60]:
+            xmin = 1569.788680825176 
+            xmax = 1570.8653007357498 
+            text = "F03_ihpwi-3" 
+        intervals [61]:
+            xmin = 1570.8653007357498 
+            xmax = 1579.8422947242866 
+            text = "" 
+        intervals [62]:
+            xmin = 1579.8422947242866 
+            xmax = 1580.7963364201148 
+            text = "F03_ihpi-1" 
+        intervals [63]:
+            xmin = 1580.7963364201148 
+            xmax = 1586.125161418524 
+            text = "" 
+        intervals [64]:
+            xmin = 1586.125161418524 
+            xmax = 1586.9097351815406 
+            text = "F03_ahpa-2" 
+        intervals [65]:
+            xmin = 1586.9097351815406 
+            xmax = 1590.2300513466269 
+            text = "" 
+        intervals [66]:
+            xmin = 1590.2300513466269 
+            xmax = 1591.0836676007889 
+            text = "F03_ihpwi-3" 
+        intervals [67]:
+            xmin = 1591.0836676007889 
+            xmax = 1598.4503708237123 
+            text = "" 
+        intervals [68]:
+            xmin = 1598.4503708237123 
+            xmax = 1599.4128027607103 
+            text = "F03_apwal-1" 
+        intervals [69]:
+            xmin = 1599.4128027607103 
+            xmax = 1604.208077674876 
+            text = "" 
+        intervals [70]:
+            xmin = 1604.208077674876 
+            xmax = 1605.2802606222333 
+            text = "F03_ipwidi-2" 
+        intervals [71]:
+            xmin = 1605.2802606222333 
+            xmax = 1608.1000173499294 
+            text = "" 
+        intervals [72]:
+            xmin = 1608.1000173499294 
+            xmax = 1608.9780254328048 
+            text = "F03_apwal-3" 
+        intervals [73]:
+            xmin = 1608.9780254328048 
+            xmax = 1623.2939682539682 
+            text = "" 
